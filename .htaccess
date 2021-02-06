@@ -1,0 +1,13 @@
+ErrorDocument 404 /subas/404.php
+
+RewriteEngine On
+AuthType Basic
+AuthName "Restricted Content"
+
+<FilesMatch "layout\images\back\.(jpg|jpeg|png|gif|svg)$">
+  Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
