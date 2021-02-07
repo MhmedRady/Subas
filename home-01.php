@@ -92,7 +92,7 @@
 				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
 					<!-- Block1 -->
 					<div class="block1 wrap-pic-w">
-						<img src="<?php echo $img; ?>banner-01.jpg" alt="IMG-BANNER">
+						<img src="<?php echo $img; ?>slide-05.jpg" alt="IMG-BANNER">
 
 						<a href="product" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
@@ -110,6 +110,7 @@
 									Shop Now
 								</div>
 							</div>
+							<div class="blog-effect"></div>
 						</a>
 					</div>
 				</div>
@@ -117,7 +118,7 @@
 				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
 					<!-- Block1 -->
 					<div class="block1 wrap-pic-w">
-						<img src="<?php echo $img; ?>banner-02.jpg" alt="IMG-BANNER">
+						<img src="<?php echo $img; ?>blog-05.jpg" alt="IMG-BANNER">
 
 						<a href="product" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
@@ -135,6 +136,7 @@
 									Shop Now
 								</div>
 							</div>
+							<div class="blog-effect"></div>
 						</a>
 					</div>
 				</div>
@@ -142,7 +144,7 @@
 				<div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
 					<!-- Block1 -->
 					<div class="block1 wrap-pic-w">
-						<img src="<?php echo $img; ?>banner-03.jpg" alt="IMG-BANNER">
+						<img src="<?php echo $img; ?>blog-04.jpg" alt="IMG-BANNER">
 
 						<a href="product" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
@@ -160,6 +162,7 @@
 									Shop Now
 								</div>
 							</div>
+							<div class="blog-effect"></div>
 						</a>
 					</div>
 				</div>

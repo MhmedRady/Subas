@@ -88,11 +88,17 @@
 		<div class="menu-mobile">
 			<ul class="main-menu-m">
 				<li>
-					<a href="index">Home</a>
+					<a data-toggle="collapse" href="#Homes" role="button" aria-expanded="false" aria-controls="Homes">Home</a>
 
 					<span class="arrow-main-menu-m">
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
 					</span>
+
+					<ul id="Homes" class="collapse homes">
+						<li><a href="index">Home</a></li>
+						<li><a href="home-01">Home One</a> </li>
+						<li> <a href="home-01">Home Tow</a></li>
+					</ul>
 				</li>
 
 				<li>
@@ -224,8 +230,8 @@
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/gallery-06.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-06.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/product-11.jpg" data-lightbox="gallery"
+							style="background-image: url('images/product-11.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->

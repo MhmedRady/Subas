@@ -11,7 +11,7 @@
             var scrollwhell = selector_map.attr('data-scrollwhell');
             var draggable = selector_map.attr('data-draggable');
             var map_zoom = selector_map.attr('data-zoom');
-
+            console.log(`google_map => ${img_pin}` );
             if (img_pin == null) {
                 img_pin = 'images/icons/location.png';
             }
@@ -220,7 +220,7 @@
             if (selector_map !== undefined) {
                 var map = new google.maps.Map(document.getElementById('google_map'), {
                     zoom: Number(map_zoom),
-                    zoomControl: false,  
+                    zoomControl: false,
                     disableDoubleClickZoom: true,
                     scrollwheel: scrollwhell,
                     navigationControl: true,
